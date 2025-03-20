@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "customerName": "John Doe",
+    "address": "123 Main St, Springfield, IL",
+    "status": "Pending",
+    "deliveryDate": "2025-03-22T14:00:00Z",
+    "totalAmount": 45.99
+  },
+  {
+    "id": 2,
+    "customerName": "Jane Smith",
+    "address": "456 Oak Rd, Madison, WI",
+    "status": "Pending",
+    "deliveryDate": "2025-03-21T10:30:00Z",
+    "totalAmount": 59.99
+  },
+  {
+    "id": 3,
+    "customerName": "Alice Johnson",
+    "address": "789 Pine Ave, Chicago, IL",
+    "status": "Pending",
+    "deliveryDate": "2025-03-23T12:45:00Z",
+    "totalAmount": 75.5
+  }
+]

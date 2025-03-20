@@ -1,0 +1,12 @@
+{
+    "id": 1,
+    "name": "Alex Johnson",
+    "email": "alex.johnson@delivery.com",
+    "phone": "+1 234 567 8901",
+    "vehicle": "Van",
+    "vehicleNumber": "XYZ 1234",
+    "status": "Available for Delivery",
+    "profilePicture": "/d_person.jpg",
+    "bio": "Experienced delivery person, committed to delivering packages on time. Always available for new deliveries, ensuring safety and efficiency."
+  }
+ 
