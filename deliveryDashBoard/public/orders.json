@@ -1,26 +1,137 @@
 [
   {
-    "id": 1,
+    "orderId": "1",
     "customerName": "John Doe",
-    "address": "123 Main St, Springfield, IL",
-    "status": "Pending",
-    "deliveryDate": "2025-03-22T14:00:00Z",
-    "totalAmount": 45.99
+    "orderDate": "2025-03-22T14:00:00Z",
+    "orderType": "Gym Equipment",
+    "items": [
+      {
+        "id": 1,
+        "name": "Adjustable Dumbbell Set",
+        "description": "A set of adjustable dumbbells with weights ranging from 5kg to 40kg",
+        "price": 120.0,
+        "quantity": 1
+      },
+      {
+        "id": 2,
+        "name": "Resistance Bands",
+        "description": "Set of resistance bands for strength training",
+        "price": 25.99,
+        "quantity": 2
+      }
+    ],
+    "deliveryAddress": "123 Main St, Springfield, IL",
+    "totalAmount": 171.99,
+    "paymentStatus": "Paid",
+    "deliveryStatus": "Picked For Delivery",
+    "deliveryDate": "2025-03-22T16:00:00Z"
   },
   {
-    "id": 2,
+    "orderId": "2",
     "customerName": "Jane Smith",
-    "address": "456 Oak Rd, Madison, WI",
-    "status": "Pending",
-    "deliveryDate": "2025-03-21T10:30:00Z",
-    "totalAmount": 59.99
+    "orderDate": "2025-03-21T10:30:00Z",
+    "orderType": "Gym Equipment",
+    "items": [
+      {
+        "id": 1,
+        "name": "Treadmill",
+        "description": "High-performance treadmill with adjustable speeds and incline",
+        "price": 799.99,
+        "quantity": 1
+      },
+      {
+        "id": 2,
+        "name": "Yoga Mat",
+        "description": "Non-slip yoga mat for yoga and pilates",
+        "price": 18.99,
+        "quantity": 2
+      }
+    ],
+    "deliveryAddress": "456 Oak Rd, Madison, WI",
+    "totalAmount": 837.97,
+    "paymentStatus": "Pending",
+    "deliveryStatus": "Waiting for deliver person pickup",
+    "deliveryDate": "2025-03-22T10:30:00Z"
   },
   {
-    "id": 3,
+    "orderId": "3",
     "customerName": "Alice Johnson",
-    "address": "789 Pine Ave, Chicago, IL",
-    "status": "Pending",
-    "deliveryDate": "2025-03-23T12:45:00Z",
-    "totalAmount": 75.5
+    "orderDate": "2025-03-23T12:45:00Z",
+    "orderType": "Gym Equipment",
+    "items": [
+      {
+        "id": 1,
+        "name": "Barbell Set",
+        "description": "Complete barbell set with weights ranging from 10kg to 50kg",
+        "price": 250.0,
+        "quantity": 1
+      },
+      {
+        "id": 2,
+        "name": "Kettlebell Set",
+        "description": "A set of kettlebells for strength and conditioning workouts",
+        "price": 129.99,
+        "quantity": 1
+      }
+    ],
+    "deliveryAddress": "789 Pine Ave, Chicago, IL",
+    "totalAmount": 379.99,
+    "paymentStatus": "Paid",
+    "deliveryStatus": "Delivered",
+    "deliveryDate": "2025-03-23T14:00:00Z"
+  },
+  {
+    "orderId": "4",
+    "customerName": "Mark White",
+    "orderDate": "2025-03-25T09:00:00Z",
+    "orderType": "Apparel",
+    "items": [
+      {
+        "id": 1,
+        "name": "Gym Shorts",
+        "description": "Comfortable and breathable gym shorts for all types of workouts",
+        "price": 25.0,
+        "quantity": 3
+      },
+      {
+        "id": 2,
+        "name": "Compression Shirt",
+        "description": "Compression shirt for improved performance and muscle support",
+        "price": 30.0,
+        "quantity": 2
+      }
+    ],
+    "deliveryAddress": "101 Elm St, New York, NY",
+    "totalAmount": 135.0,
+    "paymentStatus": "Paid",
+    "deliveryStatus": "Processing",
+    "deliveryDate": "2025-03-26T11:00:00Z"
+  },
+  {
+    "orderId": "5",
+    "customerName": "Sophia Green",
+    "orderDate": "2025-03-26T16:45:00Z",
+    "orderType": "Accessories",
+    "items": [
+      {
+        "id": 1,
+        "name": "Gym Gloves",
+        "description": "Leather gym gloves for better grip during lifting",
+        "price": 15.99,
+        "quantity": 2
+      },
+      {
+        "id": 2,
+        "name": "Water Bottle",
+        "description": "Stainless steel water bottle to keep beverages cold or hot",
+        "price": 20.0,
+        "quantity": 1
+      }
+    ],
+    "deliveryAddress": "321 Birch St, Los Angeles, CA",
+    "totalAmount": 51.99,
+    "paymentStatus": "Paid",
+    "deliveryStatus": "Delivered",
+    "deliveryDate": "2025-03-27T10:00:00Z"
   }
 ]
