@@ -1,4 +1,3 @@
-// Controller: orderController.js
 import OrderModel from "../model/orderModel.js";
 
 // Create Order
