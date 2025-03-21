@@ -6,11 +6,15 @@ import Dashboard from './components/Dashboard';
 import Home from './pages/Home';
 import Users from './pages/Users';
 import Settings from './pages/Settings';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   return (
     <Router>
       <div style={{ display: 'flex' }}>
+      <ToastContainer/>
+
         <Sidebar />
         <div style={{ flex: 1 }}>
           <Navbar />
