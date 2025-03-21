@@ -203,53 +203,6 @@ export const takeOrder = async (req, res) => {
 
 
 
-// export const completeOrder = async (req, res) => {
-//     const { orderId, deliveryPersonId } = req.body;
-  
-//     try {
-//       // Find and update the order with the completed delivery status and payment status
-//       const order = await OrderModel.findOneAndUpdate(
-//         { orderId },
-//         {
-//           deliveryPersonName: deliveryPersonId, // Assuming you are storing the person's name instead of ID
-//           deliveryStatus: "Delivered", // Set the status to Delivered
-//           paymentStatus: "Paid", // Set the payment status to Paid
-//         },
-//         { new: true }
-//       );
-  
-//       // Check if the order exists
-//       if (!order) {
-//         return res.status(404).json({ message: "Order not found" });
-//       }
-  
-//       // Read the delivery person data from the JSON file
-//       const deliveryData = JSON.parse(fs.readFileSync(deliveryDataPath, "utf8"));
-  
-//       // Find the delivery person in the JSON data
-//       const deliveryPerson = deliveryData.find(person => Number(person.id) === Number(deliveryPersonId));
-  
-//       // If no delivery person matches, send an error
-//       if (!deliveryPerson) {
-//         return res.status(404).json({ message: "Delivery person not found" });
-//       }
-  
-//       // Return the order with the delivery person details
-//       res.status(200).json({
-//         order,
-//         deliveryPerson: {
-//           name: deliveryPerson.name,
-//           phone: deliveryPerson.phone,
-//           vehicle: deliveryPerson.vehicle,
-//           profilePicture: deliveryPerson.profilePicture,
-//         },
-//       });
-//     } catch (error) {
-//       console.error(error);
-//       res.status(500).json({ message: "Server error", error: error.message });
-//     }
-//   };
-
 
 export const completeOrder = async (req, res) => {
     const { orderId, deliveryPersonId } = req.body;

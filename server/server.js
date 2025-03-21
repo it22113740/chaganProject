@@ -10,7 +10,7 @@ connectDB();
 
 app.use(
   cors({
-    origin: "http://localhost:3000", // adjust as needed
+    origin: "http://localhost:3001", // adjust as needed
     credentials: true,
   })
 );
